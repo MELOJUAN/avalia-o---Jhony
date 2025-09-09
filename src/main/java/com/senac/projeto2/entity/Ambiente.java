@@ -29,6 +29,5 @@ public class Ambiente {
     @Column(name = "ambiente_status")
     private Integer status;
 
-    // Getters e Setters
-    // ...
+
 }

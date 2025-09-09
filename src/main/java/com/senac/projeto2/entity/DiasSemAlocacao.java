@@ -30,6 +30,5 @@ public class DiasSemAlocacao {
     @Column(name = "dias_sem_alocacao_status")
     private Integer status;
 
-    // Getters e Setters
-    // ...
+
 }

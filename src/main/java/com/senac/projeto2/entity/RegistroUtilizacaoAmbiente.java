@@ -36,6 +36,5 @@ public class RegistroUtilizacaoAmbiente {
     @Column(name = "planejamento_alocacao_id")
     private Integer planejamentoAlocacaoId;
 
-    // Getters e Setters
-    // ...
+
 }

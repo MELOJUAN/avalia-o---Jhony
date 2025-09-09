@@ -39,6 +39,4 @@ public class PlanejamentoAlocacao {
     @OneToOne(mappedBy = "planejamentoAlocacao")
     private ReservaAlocacao reservaAlocacao;
 
-    // Getters e Setters
-    // (Adicione aqui todos os getters e setters para os atributos acima)
 }

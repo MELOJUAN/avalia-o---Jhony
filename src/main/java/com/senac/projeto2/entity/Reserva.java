@@ -27,6 +27,5 @@ public class Reserva {
     @Column(name = "tempo")
     private Date tempo;
 
-    // Getters e Setters
-    // ...
+
 }

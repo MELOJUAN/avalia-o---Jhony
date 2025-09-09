@@ -39,6 +39,5 @@ public class ReservaAlocacao {
     @JoinColumn(name = "planejamento_alocacao_id")
     private PlanejamentoAlocacao planejamentoAlocacao;
 
-    // Getters e Setters
-    // ...
+
 }

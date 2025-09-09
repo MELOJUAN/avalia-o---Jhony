@@ -24,5 +24,4 @@ public class UsuarioDtoResponse {
         this.nome = nome;
     }
 
-    // Continue com os outros getters e setters
 }

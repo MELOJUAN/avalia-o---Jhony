@@ -28,8 +28,6 @@ public class Usuario {
     @Column(name = "usuario_log_data_criacao")
     private Date dataCriacao;
 
-    @Column(name = "usuario_log_responsavel_id")
-    private Integer responsavelId;
 
     @OneToMany(mappedBy = "usuario")
     private List<ReservaAlocacao> reservaAlocacoes;
@@ -37,6 +35,5 @@ public class Usuario {
     @OneToMany(mappedBy = "usuario")
     private List<PlanejamentoAlocacao> planejamentoAlocacoes;
 
-    // Getters e Setters
-    // (Adicione aqui todos os getters e setters para os atributos acima)
+
 }

@@ -20,6 +20,5 @@ public class Sala {
     @Column(name = "nome")
     private String nome;
 
-    // Getters e Setters
-    // ...
+
 }
